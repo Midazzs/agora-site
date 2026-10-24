@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tester feedback · Agora mini MBA</title><meta name="description" content="Feedback form for testers of Agora mini MBA"><link rel="icon" href="icon.png">
+<meta name="color-scheme" content="light dark"><meta name="robots" content="noindex"><style>@font-face{font-family:'Site Sans';src:url(fonts/hg-400.woff2) format('woff2');font-style:normal;font-weight:400;font-display:swap}@font-face{font-family:'Site Sans';src:url(fonts/hg-500.woff2) format('woff2');font-style:normal;font-weight:500;font-display:swap}@font-face{font-family:'Site Sans';src:url(fonts/hg-600.woff2) format('woff2');font-style:normal;font-weight:600;font-display:swap}@font-face{font-family:'Site Serif';src:url(fonts/nr-display-400.woff2) format('woff2');font-style:normal;font-weight:400;font-display:swap}@font-face{font-family:'Site Serif';src:url(fonts/nr-display-400i.woff2) format('woff2');font-style:italic;font-weight:400;font-display:swap}
+:root{--gold2:#C8A35A;--bg:#F1EEE8;--surface:#FAF8F4;--ink:#19211E;--ink2:#3A433F;--muted:#5E6661;--line:#DCD6CB;--brand:#1D332D;--on:#F3EFE6;--on2:#BAC6BF;--gold:#D9BA78;--mark:#F3E6CF;--markink:#85541A;--act:#1D332D;--actink:#F3EFE6}
+@media (prefers-color-scheme:dark){:root{--bg:#0D1311;--surface:#141C19;--ink:#ECE8DF;--ink2:#CFCAC0;--muted:#A0A7A1;--line:#26302C;--brand:#16271F;--mark:#2C2415;--markink:#E7B96A;--act:#E3DCCD;--actink:#13201A}}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 'Site Sans',-apple-system,'Segoe UI',Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3,.wm{font-family:'Site Serif',Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.01em;line-height:1.15}
+a{color:inherit}.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header.top{background:var(--brand);color:var(--on)}header.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;padding-top:18px;padding-bottom:18px}
+.wm{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--on)}.wm .l{width:30px;height:30px;color:var(--gold2)}.wm .l svg{width:100%;height:100%;display:block}.wm .n{font-size:1.6rem}.wm .p{white-space:nowrap;font-size:1rem;color:var(--on2);border-left:1px solid rgba(243,239,230,.3);padding-left:10px}.wm i{font-style:italic}nav.top a{color:var(--on2);text-decoration:none;font-size:.9rem;margin-left:18px}nav.top a:hover{color:var(--on)}
+.hero{background:var(--brand);color:var(--on);padding:40px 0 64px}.hero h1{font-size:clamp(2.2rem,6vw,3.6rem);margin:0 0 16px;color:var(--on)}.hero p{color:var(--on2);max-width:38em;margin:0 0 26px;font-size:1.08rem}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.74rem;color:var(--gold);margin:0 0 14px;font-weight:600}
+.btn{display:inline-block;background:var(--on);color:#13201A;text-decoration:none;padding:14px 22px;border-radius:8px;font-weight:600}.btn.soon{background:transparent;color:var(--on);border:1px solid var(--on2)}
+.facts{display:grid;grid-template-columns:repeat(4,max-content);gap:12px 30px;margin-top:30px;color:var(--on2);font-size:.92rem}.facts b{color:var(--on);font-family:'Site Serif',Georgia,serif;font-size:1.4rem;font-weight:400;display:block}
+section{padding:52px 0;border-bottom:1px solid var(--line)}section h2{font-size:2rem;margin:0 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px}
+.card h3{margin:4px 0 6px;font-size:1.2rem}.card p{margin:0;color:var(--ink2);font-size:.93rem}.num{color:var(--muted);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}
+.shots{display:flex;gap:14px;overflow-x:auto;padding-bottom:6px}.shots img{height:420px;border-radius:14px;border:1px solid var(--line)}
+ul.ticks{padding:0;list-style:none;margin:0;display:grid;gap:10px}ul.ticks li{padding-left:26px;position:relative;color:var(--ink2)}ul.ticks li:before{content:'';position:absolute;left:4px;top:.55em;width:10px;height:6px;border-left:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg)}
+.who-lead{font-weight:600}
+footer{padding:30px 0 50px;color:var(--muted);font-size:.88rem}footer nav a{margin-right:16px}
+.legal{max-width:720px;padding:34px 20px 20px;margin:0 auto}.legal h1{font-size:2.4rem;margin:0 0 20px}.legal h2{font-size:1.3rem;margin:30px 0 8px}.legal p,.legal li{color:var(--ink2)}.legal mark{background:var(--mark);color:var(--markink);padding:0 3px;border-radius:3px}.legal-updated{color:var(--muted);font-size:.88rem}
+.fb{max-width:620px;padding:34px 20px 10px;margin:0 auto}.fb h1{font-size:2.3rem;margin:0 0 10px}.fb .lead{color:var(--ink2);margin:0 0 26px}.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;margin:0 0 22px;background:var(--surface)}.lang button{appearance:none;border:0;background:none;font:inherit;font-size:.88rem;padding:6px 14px;border-radius:999px;color:var(--ink2);cursor:pointer}.lang button[aria-pressed=true]{background:var(--act);color:var(--actink)}.fb fieldset{border:0;margin:0 0 22px;padding:0}.fb legend,.fb label.q{display:block;font-weight:600;margin:0 0 10px;padding:0}.fb .opt{color:var(--muted);font-weight:400}.choices{display:flex;flex-wrap:wrap;gap:8px}.choices label{position:relative}.choices input{position:absolute;opacity:0;width:1px;height:1px}.choices span{display:inline-block;min-width:48px;text-align:center;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer}.choices input:checked+span{background:var(--act);color:var(--actink);border-color:var(--act)}.choices input:focus-visible+span{outline:2px solid #1E5FCB;outline-offset:2px}.fb input[type=text],.fb textarea{width:100%;font:inherit;font-size:1rem;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:11px 12px}.fb textarea{min-height:92px;resize:vertical}.fb input[type=text]:focus,.fb textarea:focus{outline:2px solid #1E5FCB;outline-offset:1px}.fb .send{appearance:none;border:0;cursor:pointer;width:100%;font:inherit;font-weight:600;background:var(--act);color:var(--actink);padding:15px;border-radius:8px;font-size:1rem}.fb .hint{color:var(--muted);font-size:.86rem;margin:10px 0 0;text-align:center}.fb .after{display:none;margin-top:16px;padding:14px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-size:.92rem;color:var(--ink2)}.fb .after button{appearance:none;font:inherit;font-size:.9rem;margin-top:8px;padding:8px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);cursor:pointer}
+@media (max-width:560px){nav.top{width:100%}nav.top a{margin:0 16px 0 0;font-size:.82rem}.facts{grid-template-columns:repeat(2,max-content)}.shots img{height:360px}}
+</style></head>
+<body><header class="top"><div class="wrap"><a class="wm" href="index.html" aria-label="Agora mini MBA"><span class="l"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-linejoin="round"><circle cx="50" cy="50" r="45" stroke-width="4.5"/><path d="M29 37.5 L50 22 L71 37.5 Z" stroke-width="4.5"/><path d="M23 42.5 H77" stroke-width="5"/><path d="M30.5 48 V69.5 M38.3 48 V69.5 M46.1 48 V69.5 M53.9 48 V69.5 M61.7 48 V69.5 M69.5 48 V69.5" stroke-width="4.3"/><path d="M22 75 H78" stroke-width="5"/></g></svg></span><span class="n">Agora</span><span class="p"><i>mini</i> MBA</span></a>
+<nav class="top"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="imprint.html">Legal notice</a></nav></div></header>
+
+<main class="fb"><div class="lang" role="group" aria-label="Language / Sprache"><button type="button" data-lang="en" aria-pressed="true">English</button><button type="button" data-lang="de" aria-pressed="false">Deutsch</button></div>
+<h1 data-t="title">Tester feedback</h1><p class="lead" data-t="lead">Thank you for testing. Six quick questions, about two minutes.</p>
+<form id="fb" action="mailto:support@agoraskills.com" method="post" enctype="text/plain">
+<label class="q" for="f-name"><span data-t="name">Your name</span> <span class="opt" data-t="optional">(optional)</span></label><p><input type="text" id="f-name" name="name" autocomplete="name"></p>
+<fieldset><legend data-t="used">How often did you use the app?</legend><div class="choices">
+<label><input type="radio" name="used" value="Once or twice"><span data-t="used1">Once or twice</span></label><label><input type="radio" name="used" value="A few times"><span data-t="used2">A few times</span></label><label><input type="radio" name="used" value="Most days"><span data-t="used3">Most days</span></label></div></fieldset>
+<fieldset><legend data-t="rating">Overall, how good is it? (1 = poor, 5 = excellent)</legend><div class="choices">
+<label><input type="radio" name="rating" value="1"><span>1</span></label><label><input type="radio" name="rating" value="2"><span>2</span></label><label><input type="radio" name="rating" value="3"><span>3</span></label><label><input type="radio" name="rating" value="4"><span>4</span></label><label><input type="radio" name="rating" value="5"><span>5</span></label></div></fieldset>
+<p><label class="q" for="f-liked" data-t="liked">What did you like most?</label><textarea id="f-liked" name="liked"></textarea></p>
+<p><label class="q" for="f-issues" data-t="issues">What was confusing, broken or annoying?</label><textarea id="f-issues" name="issues"></textarea></p>
+<fieldset><legend data-t="pay">Would you pay for the full programme?</legend><div class="choices">
+<label><input type="radio" name="pay" value="Yes"><span data-t="yes">Yes</span></label><label><input type="radio" name="pay" value="Maybe"><span data-t="maybe">Maybe</span></label><label><input type="radio" name="pay" value="No"><span data-t="no">No</span></label></div></fieldset>
+<button class="send" type="submit" data-t="send">Send feedback</button>
+<p class="hint" data-t="hint">Opens your email app with your answers filled in — just tap send.</p>
+<div class="after" id="after" role="status"><span data-t="after">Nothing opened? Copy your answers and email them to</span> <b>support@agoraskills.com</b>.<br><button type="button" id="copy" data-t="copy">Copy answers</button></div>
+</form></main>
+<script>
+(function () {
+  var MAIL = 'support@agoraskills.com';
+  var T = { de: { title: 'Feedback zum Test', lead: 'Danke fürs Testen! Sechs kurze Fragen, etwa zwei Minuten.', name: 'Dein Name', optional: '(optional)',
+    used: 'Wie oft hast du die App genutzt?', used1: 'Ein- bis zweimal', used2: 'Ein paar Mal', used3: 'Fast täglich',
+    rating: 'Wie gut ist sie insgesamt? (1 = schwach, 5 = ausgezeichnet)', liked: 'Was hat dir am besten gefallen?', issues: 'Was war unklar, fehlerhaft oder nervig?',
+    pay: 'Würdest du für das volle Programm bezahlen?', yes: 'Ja', maybe: 'Vielleicht', no: 'Nein', send: 'Feedback senden',
+    hint: 'Öffnet deine E-Mail-App mit deinen Antworten – einfach auf Senden tippen.', after: 'Nichts passiert? Kopiere deine Antworten und schicke sie an', copy: 'Antworten kopieren', copied: 'Kopiert ✓' } };
+  var EN = {}; document.querySelectorAll('[data-t]').forEach(function (el) { EN[el.dataset.t] = el.textContent; }); EN.copied = 'Copied ✓';
+  var lang = 'en';
+  function setLang(l) { lang = l; var d = l === 'de' ? T.de : EN; document.documentElement.lang = l === 'de' ? 'de' : 'en-GB';
+    document.querySelectorAll('[data-t]').forEach(function (el) { if (d[el.dataset.t]) el.textContent = d[el.dataset.t]; });
+    document.querySelectorAll('[data-lang]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === l)); }); }
+  document.querySelectorAll('[data-lang]').forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.lang); }); });
+  if (/^de/i.test(navigator.language || '') || /[?&]lang=de/.test(location.search)) setLang('de');
+  var f = document.getElementById('fb');
+  function val(n) { var el = f.elements[n]; if (!el) return ''; if (el.length !== undefined && el.tagName !== 'TEXTAREA' && el.tagName !== 'INPUT') { for (var i = 0; i < el.length; i++) if (el[i].checked) return el[i].value; return ''; } return (el.value || '').trim(); }
+  function text() { return ['Agora tester feedback', '', 'Name: ' + (val('name') || '-'), 'Used the app: ' + (val('used') || '-'), 'Rating: ' + (val('rating') ? val('rating') + '/5' : '-'),
+    'Would pay: ' + (val('pay') || '-'), '', 'Liked most:', val('liked') || '-', '', 'Confusing, broken or annoying:', val('issues') || '-', '', '(Form language: ' + lang + ')'].join('\n'); }
+  f.addEventListener('submit', function (ev) { ev.preventDefault();
+    location.href = 'mailto:' + MAIL + '?subject=' + encodeURIComponent('Agora tester feedback' + (val('name') ? ' – ' + val('name') : '')) + '&body=' + encodeURIComponent(text());
+    setTimeout(function () { document.getElementById('after').style.display = 'block'; }, 1200); });
+  document.getElementById('copy').addEventListener('click', function () { var b = this, t = text();
+    function done() { b.textContent = (lang === 'de' ? T.de : EN).copied; }
+    if (navigator.clipboard) navigator.clipboard.writeText(t).then(done, function () {}); });
+})();
+</script>
+<footer><div class="wrap"><nav><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a><a href="imprint.html">Legal notice</a></nav>
+<p>© 2026 Agora · Andreas Nowottny · support@agoraskills.com</p></div></footer></body></html>
